@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess The Word</title>
+  </head>
+  <body>
+    <img class="img" src="g1.jpg" alt="Poster with text Guess my number" />
+    <p class="top-text">Start Guessing!</p>
+    <p class="hidden-word">◉ ◉ ◉ ◉ ◉</p>
+    <p class="chances">You have <span> 10 </span> guesses remaining.</p>
+    <ul class="guessed-letters"></ul>
+    <p class="info-text">Guess a letter:</p>
+    <input type="text" class="input-field" id="myInput" />
+    <a class="button" href="#">Guess</a>
+    <a id="reset-game" href="#">Reset</a>
+    <script src="script.js"></script>
+  </body>
+</html>
